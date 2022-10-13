@@ -1,3 +1,5 @@
+from televisor import Televisor
+
 televisao = Televisor(10, 15, 5, 6)
 
 # Testes getters
