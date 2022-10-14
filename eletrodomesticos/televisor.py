@@ -21,7 +21,7 @@ class Televisor(Eletrodomestico):
         return self.__numeros_canais
     
     @get_numero_canais.setter
-    def set_numero_canais(self, valor) -> None:
+    def set_numero_canais(self, valor) -> str:
         if self._Eletrodomestico__ligado: # Conferindo se o eletrodoméstico está ligado.
             if isinstance(valor, int): # Conferindo se o valor é uma instância do tipo inteiro
                 if valor <= 0: # Verificando se o valor é maior que 0.
@@ -59,7 +59,7 @@ class Televisor(Eletrodomestico):
         return self.__canal
     
     @get_canal.setter
-    def set_canal(self, valor) -> None:
+    def set_canal(self, valor) -> str:
         if self._Eletrodomestico__ligado: # Conferindo se o eletrodoméstico está ligado.
             if isinstance(valor, int): # Conferindo se o valor é uma instância do tipo inteiro.
                 if valor <= 0: # Verificando se o valor é maior que 0.
@@ -81,7 +81,7 @@ class Televisor(Eletrodomestico):
         return self.__volume
     
     @get_volume.setter
-    def set_volume(self, valor) -> None:
+    def set_volume(self, valor) -> str:
         if self._Eletrodomestico__ligado: # Conferindo se o eletrodoméstico está ligado.
             if isinstance(valor, int): # Conferindo se o valor é uma instância do tipo inteiro.
                 if valor <= 0: # Verificando se o valor é maior que 0.
@@ -126,7 +126,7 @@ class Televisor(Eletrodomestico):
             self.__volume = self.__volume_maximo
             print('Alterando valores de dados inválidos.')
     
-    def canal_acima(self) -> None:
+    def canal_acima(self) -> str:
         if self._Eletrodomestico__ligado: # Conferindo se o eletrodoméstico está ligado.
             if self.__canal == self.__numeros_canais:
                 self.__canal = (self.__canal - self.__numeros_canais) +1 # Voltando ao canal 1, pois não dá para subir de canal se estiver no máximo.
@@ -136,7 +136,7 @@ class Televisor(Eletrodomestico):
             print('Ligue a televisão.')
     
     
-    def canal_abaixo(self) -> None:
+    def canal_abaixo(self) -> str:
         if self._Eletrodomestico__ligado: # Conferindo se o eletrodoméstico está ligado.
             if self.__canal == 1:
                 self.__canal = self.__numeros_canais + 1
