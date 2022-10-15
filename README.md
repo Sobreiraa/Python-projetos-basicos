@@ -1,5 +1,5 @@
 # Python-projetos-basicos
- Projetos básicos que criei para testar meus conhecimentos em Programação Orientada a Objetos.
+ Projetos básicos que criei para testar meus conhecimentos em **Programação Orientada a Objetos**.
 
 ### 1. Moto
 
