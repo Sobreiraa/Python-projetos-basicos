@@ -2,7 +2,7 @@
 # Simula o uso de um dado, retornando um valor entre 1 e 6.
 
 from random import randint
-import PySimpleGUI as sg
+
 
 class SimuladorDeDado:
 
