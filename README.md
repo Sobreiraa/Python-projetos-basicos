@@ -26,7 +26,20 @@ Crie uma classe denominada Elevador para armazenar as informações de um elevad
 * Encapsular todos os atributos da classe (criar os métodos set e get).
 ***
 
-### 4. Moto
+### 4. Mini projetos 
+
+Aqui estão 4 mini projetos. Fiz durante um vídeo que vi em um canal no youtube chamado *Dev Aprender*, [aqui está o link para o vídeo](https://www.youtube.com/watch?v=7U3-pJZkN-o&t=6946s). Os projetos são:
+#### Chute o número
+* Criar um algoritmo que gera um valor aleatório e peça um número ao usuário até que ele acerte esse valor aleatório.
+#### Decida por mim
+* Faça uma pergunta para o programa e ele terá que te dar uma resposta.
+#### Jogo de aventura / Tema: Valorant
+* Um jogo de decisões onde eu terei que criar vários finais diferentes baseados nas respostas que forem dadas.
+* Desejo chegar a finais diferentes na minha história, de acordo com as respostas que eu passe para o programa.
+####  Simulador de dados
+* Simula o uso de um dado, retornando um valor entre 1 e 6.
+
+### 5. Moto
 
 Escreva um código que apresente a classe Moto, com atributos marca, modelo, cor e marcha. Crie também um método imprimir, que deve mostrar na tela os valores de todos os atributos. O atributo marcha indica em que marcha a moto se encontra no momento, sendo representado de forma inteira. Onde: 0 - neutro, 1 - primeira, 2 - segunda, etc.
 Adicione os métodos marcha_acima e marcha_abaixo, que deverão efetuar a troca de marchas, onde o método marcha_acima sobe uma marcha e o método marcha_abaixo deverá realizar o oposto.
