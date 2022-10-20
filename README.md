@@ -34,7 +34,7 @@ Aqui estão 4 mini projetos. Fiz durante um vídeo que vi em um canal no youtube
 #### Decida por mim
 * Faça uma pergunta para o programa e ele terá que te dar uma resposta.
 #### Jogo de aventura / Tema: Valorant
-* Um jogo de decisões onde eu terei que criar vários finais diferentes baseados nas respostas que forem dadas.
+* Um jogo de decisões onde eu terei que criar vários finais diferentes baseados nas respostas que foram dadas.
 * Desejo chegar a finais diferentes na minha história, de acordo com as respostas que eu passe para o programa.
 ####  Simulador de dados
 * Simula o uso de um dado, retornando um valor entre 1 e 6.
