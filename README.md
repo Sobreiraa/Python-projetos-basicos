@@ -10,12 +10,21 @@ Crie uma classe Agenda que possa armazenaar 10 pessoas e seja capaz de realizar 
 * Imprime_agenda() // imprime os dados de todas as pessoas da agenda;
 *** 
 
-### 2. Eletrodoméstico/Televisor. 
+### 2. Calculadora
+
+Criando uma calculadora que faz cálculos de vários números de uma vez. A calculadora consegue fazer os seguintes cálculos:
+* Cálculo de soma;
+* Cálculo de subtração;
+* Cálculo de múltiplicação;
+* Cálculo de divisão;
+*** 
+
+### 3. Eletrodoméstico/Televisor. 
 
 Escreva um código que apresente a classe Televisor, com atributos ligado, canal e volume. Adicione um método imprimir que deve mostrar na tela os valores de todos os atributos. O atributo ligado será boleano e deverá indicar o estado atual do televisor, se ligado ou desligado. O atributo canal deverá indicar o canal atual em que o televisor está sintonizado. O atributo volume deverá indicar o volume atual do televisor. Crie ou herde os métodos ligar e desligar do eletrodoméstico. Crie os atributos numero_canais e volume_maximo, onde numeros_canais indica o número máximo de canais que o televisor pode sintonizar e o volume_maximo indica qual o maior nível de volume possível. O método imprimir deve ser modificado de forma a mostrar na tela os valores de todos os atributos. Faça também os métodos canal_acima e o canal_abaixo, sendo que o método canal_acima deve sintonizar sempre o próximo canal em relação ao canal atual, onde ao chegar ao maior canal possível deverá voltar ao canal 1. O método canal_abaixo deve sintonizar sempre o canal anterior em relação ao canal atual, onde chegar ao canal 1 deverá voltar ao maior canal possível, simulando desta forma o funcionamento de um televisor. E por último adicione os métodos volume_acima e volume_abaixo, sendo que o método volume_acima deve modificar o volume para o próximo nível de volume possível, onde ao chegar ao volume_maximo não poderá possibilitar que o volume seja alterado. O método volume_abaixo deve modificar o volume para o nível imediatamente inferior de volume em relação ao volume atual, não podendo ser menor do que 0, simulando desta forma o funcionamento de um televisor.
 ***
 
-### 3. Elevador
+### 4. Elevador
 
 Crie uma classe denominada Elevador para armazenar as informações de um elevador dentro de um prédio. A classe deve armazenar o andar atual (térreo = 0), total de andares do prédio, excluindo o térreo, capacidade do elevador e quantas pessoas estão presentes nele. A classe também deve disponibilizar os seguintes métodos:  
 * Inicializa: deve receber como parâmetro a capacidade do elevador e o  total de andares do prédio (os elevadores sempre começam no térreo e vazio);  
@@ -26,7 +35,7 @@ Crie uma classe denominada Elevador para armazenar as informações de um elevad
 * Encapsular todos os atributos da classe (criar os métodos set e get).
 ***
 
-### 4. Mini projetos 
+### 5. Mini projetos 
 
 Aqui estão 4 mini projetos. Fiz durante um vídeo que vi em um canal no youtube chamado *Dev Aprender*, [aqui está o link para o vídeo](https://www.youtube.com/watch?v=7U3-pJZkN-o&t=6946s). Os projetos são:
 #### Chute o número
@@ -39,7 +48,7 @@ Aqui estão 4 mini projetos. Fiz durante um vídeo que vi em um canal no youtube
 ####  Simulador de dados
 * Simula o uso de um dado, retornando um valor entre 1 e 6.
 
-### 5. Moto
+### 6. Moto
 
 Escreva um código que apresente a classe Moto, com atributos marca, modelo, cor e marcha. Crie também um método imprimir, que deve mostrar na tela os valores de todos os atributos. O atributo marcha indica em que marcha a moto se encontra no momento, sendo representado de forma inteira. Onde: 0 - neutro, 1 - primeira, 2 - segunda, etc.
 Adicione os métodos marcha_acima e marcha_abaixo, que deverão efetuar a troca de marchas, onde o método marcha_acima sobe uma marcha e o método marcha_abaixo deverá realizar o oposto.
