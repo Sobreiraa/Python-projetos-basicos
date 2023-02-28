@@ -65,7 +65,7 @@ class Calculadora:
         lista_de_numeros_para_calc = []
         for numero in range(1, qtd_numeros_para_somar+1):
             try:
-                numero = int(input(f'Digite o {numero}° número para soma: '))
+                numero = int(input(f'Digite o {numero}° número para a soma: '))
                 lista_de_numeros_para_calc.append(numero)
                 print()
             except (ValueError, TypeError): # Erros do tipo de dado inserido.
@@ -108,7 +108,7 @@ class Calculadora:
         lista_de_numeros_para_calc = []
         for numero in range(1, qtd_numeros_para_subtrair+1):
             try:
-                numero = int(input(f'Digite o {numero}° número para subtrair: '))
+                numero = int(input(f'Digite o {numero}° número para a subtração: '))
                 lista_de_numeros_para_calc.append(numero)
                 print()
             except (ValueError, TypeError): # Erros do tipo de dado inserido.
@@ -151,7 +151,7 @@ class Calculadora:
         lista_de_numeros_para_calc = []
         for numero in range(1, qtd_numeros_para_multiplicar+1):
             try:
-                numero = int(input(f'Digite o {numero}° número para multiplicar: '))
+                numero = int(input(f'Digite o {numero}° número para a multiplicação: '))
                 lista_de_numeros_para_calc.append(numero)
                 print()
             except (ValueError, TypeError): # Erros do tipo de dado inserido.
@@ -194,7 +194,7 @@ class Calculadora:
         lista_de_numeros_para_calc = []
         for numero in range(1, qtd_numeros_para_dividir+1):
             try:
-                numero = int(input(f'Digite o {numero}° número para dividir: '))
+                numero = int(input(f'Digite o {numero}° número para a divisão: '))
                 lista_de_numeros_para_calc.append(numero)
                 print()
             except (ValueError, TypeError): # Erros do tipo de dado inserido.
